@@ -11,10 +11,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 namespace Branding {
 
-constexpr auto AppName = "OwpenGram Desktop"_cs;
-constexpr auto ShortAppName = "OwpenGram"_cs;
-constexpr auto ApplicationName = "OwpengramDesktop"_cs;
-constexpr auto CompanyName = "OwpenGram"_cs;
+constexpr auto AppName = "RKGram Desktop"_cs;
+constexpr auto ShortAppName = "RKGram"_cs;
+constexpr auto ApplicationName = "RKgramDesktop"_cs;
+constexpr auto CompanyName = "RKGram"_cs;
 
 #ifdef _DEBUG
 constexpr auto WindowsIconPath = "Resources/OwpenGram/art/icon256_debug.ico"_cs;
@@ -39,12 +39,12 @@ constexpr auto TrayMonochromePath = ":/gui/icons/tray/monochrome.svg"_cs;
 constexpr auto TrayMonochromeAttentionPath = ":/gui/icons/tray/monochrome_attention.svg"_cs;
 constexpr auto TrayMonochromeMutePath = ":/gui/icons/tray/monochrome_mute.svg"_cs;
 
-constexpr auto BundleIdentifier = "org.owpengram.desktop"_cs;
+constexpr auto BundleIdentifier = "com.rkgram.desktop"_cs;
 
 #ifdef _DEBUG
-constexpr auto LinuxAppId = "org.owpengram.desktop.Debug"_cs;
+constexpr auto LinuxAppId = "com.rkgram.desktop.Debug"_cs;
 #else
-constexpr auto LinuxAppId = "org.owpengram.desktop"_cs;
+constexpr auto LinuxAppId = "com.rkgram.desktop"_cs;
 #endif
 
 } // namespace Branding
